@@ -69,7 +69,7 @@ document.getElementById("submit").addEventListener("click", function () {
     // Example usage
     let inputTime = time; // Example input time in HH:MM format (24-hour format)
     let formattedTime = formatTime(inputTime);
-    document.getElementById("timeChange").innerText = formattedTime;
+    // document.getElementById("timeChange").innerText = formattedTime;
     
     // Event listener for the button click
     document.getElementById('timepress').addEventListener('click', function() {
