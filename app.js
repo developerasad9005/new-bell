@@ -88,7 +88,7 @@ document.getElementById('submit').addEventListener('click', function() {
 // Event listener for updating time by adding 3 minutes
 document.getElementById('timepress').addEventListener('click', function() {
     let currentTime = document.getElementById("time").value;
-    let updatedTime = addMinutesToTime(currentTime, 3); // Add 3 minutes
+    let updatedTime = addMinutesToTime(currentTime, 2); // Add 3 minutes
    
         function formatTime(newTime) {
         // Assuming inputTime is in the format HH:MM (24-hour format)
