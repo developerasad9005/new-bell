@@ -12,7 +12,7 @@ document.getElementById("submit").addEventListener("click", function () {
     let secoundPrizeChange = randomNumber(40, 860);
     let thirdPrizeChange = randomNumber(85, 775);
     let fourPrizeChange = randomNumber(70, 964);
-    let cashPrize = randomNumber(680, 3500);
+    let cashPrize = randomNumber(3500, 3520);
     var randomOrder = Math.floor(Math.random() * 999999);
     const subtotal = firstPrizeChange + secoundPrizeChange + thirdPrizeChange + fourPrizeChange;
     let subTotalResult = parseFloat(subtotal.toFixed(2));
