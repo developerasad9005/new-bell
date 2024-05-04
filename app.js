@@ -8,11 +8,11 @@ document.getElementById("submit").addEventListener("click", function () {
         let roundedNumber = parseFloat(randonResult.toFixed(2));
         return roundedNumber;
     }
-    let firstPrizeChange = randomNumber(50, 950);
-    let secoundPrizeChange = randomNumber(40, 860);
-    let thirdPrizeChange = randomNumber(85, 775);
-    let fourPrizeChange = randomNumber(70, 964);
-    let cashPrize = randomNumber(3500, 3520);
+    let firstPrizeChange = randomNumber(50, 250);
+    let secoundPrizeChange = randomNumber(40, 190);
+    let thirdPrizeChange = randomNumber(85, 225);
+    let fourPrizeChange = randomNumber(70, 350);
+    let cashPrize = randomNumber(1015, 1020);
     var randomOrder = Math.floor(Math.random() * 999999);
     const subtotal = firstPrizeChange + secoundPrizeChange + thirdPrizeChange + fourPrizeChange;
     let subTotalResult = parseFloat(subtotal.toFixed(2));
